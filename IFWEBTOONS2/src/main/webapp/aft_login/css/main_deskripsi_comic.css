@@ -1,0 +1,421 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container_comic {
+  width: 95%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(/img/gedung3lg.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.selengkapnya {
+  background-color: #42C2FF;
+    border-radius: 50px;
+
+}
+
+.kegiatan {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.penelitian {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 40px;
+
+  background-color: #f7f7f7;
+  text-align: center;
+
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+ .judul_comic h2 {
+  font-weight: normal;
+    margin: 0;
+      margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #F38BA0;
+  cursor: pointer;
+  box-shadow: 0 7px #FFBCBC;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+.selected{
+  color: #000000;
+  float: right;
+  padding: 10x 60px 40px 60px;
+}
+li{
+  list-style: none;
+  float: left;
+  padding-bottom:10px;
+  padding-left: 40px;
+}
+
+/* Ketik code Anda dibawah */
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/* halaman main tengah dan side */
+main {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+ }
+  #content {
+	float: left;
+	width: 60%;
+	padding: 20px; 
+ }
+
+ #content-full{
+   float: left;
+	width: 90%;
+	padding: 20px; 
+ }
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+ }
+.judul-sub {
+  font-size: 25px;
+ font-family: 'Roboto', sans-serif;
+ color: #42C2FF;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ text-align: left;
+}
+
+.par-top {
+
+	position: relative;
+	display: flex;
+	color: #00c7ed;
+	margin-left: 32%;
+}
+.par-bot {
+
+	position: relative;
+	display: flex;
+	color: #00c7ed;
+}
+.par-bot p{
+	color: black;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: justify;
+  line-height: 2;
+}
+.par-pro {
+	position: relative;
+	display: flex;
+	margin-top: 10px;
+	color: #00c7ed;
+}
+.par-pro p{
+	color: black;
+	margin-top: -3px;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: justify;
+  line-height: 2;
+}
+.authors {
+  display: grid;
+  text-align: center;
+	width: 50%;
+  height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 150px;
+ }
+.par-ent{
+  margin-top: 20px;
+}
+.judul {
+  font-size: 40px;
+ font-family: 'Roboto', sans-serif;
+ color: #f44949;
+ text-align: center;
+ margin-top: 20px;
+}
+.judul-sub {
+  font-size: 30px;
+ font-family: 'Roboto', sans-serif;
+ color: #f44949;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ margin-top: 10px; 
+ text-align: left;
+}
+.judul-sub span{
+ color: black;
+}
+.judul-pro {
+ font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+.sub-pro {
+  text-align: center;
+ font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.profile{
+  margin-top: 6%;
+	transition: .5s ease;
+	cursor: pointer; 
+}
+
+.profile:hover{
+	box-shadow:
+	3px 3px #565373,
+	4px 4px #565373,
+	5px 5px #565373,
+	6px 6px #565373,
+	8px 8px #565373,
+	10px 10px #565373;
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+	transition: .5s ease;
+	
+	} */
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+
+}
+
+  aside {
+    float: right;
+    width: 37%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+   }
+   .img-com2 {
+    max-width: 110%;
+    max-height: 110%;
+    width: 140%; 
+    height: 140%;
+    margin: -19px;
+    z-index: -1;
+
+  }
+  .nama-kel {
+    margin-top: 3%;
+    padding: 2%;
+
+  }
+  .site-profile {
+    display: grid;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #131313;
+    padding: 10px 20px;
+    min-width: 153px;
+    border-radius: 50px;
+    font-weight: normal;
+    border: none;
+    background: #ffb320;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .site-profile:hover {
+    color: white;
+  }
+  .main-bawah {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+  }
+   .abt-img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: grid;
+    margin-top: 10px;
+    object-fit:cover;
+    width: 420px;
+    height: 630px;
+   }
+
+   .container-chapters-comic {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 15px;
+
+    /* Properti lainnya */
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.box-chapter {
+    /* properti lainnya */
+    display: grid;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 20px;
+    color: #131313;
+    padding: 10px 20px;
+    min-width: 153px;
+    border-radius: 50px;
+    font-weight: normal;
+    border: none;
+    background: #ffb320;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box-chapter:hover {
+    color: white;
+}
+.tengah-txt {
+	text-align: center;
+	font-weight: normal;
+}

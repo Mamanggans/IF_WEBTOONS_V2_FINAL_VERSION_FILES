@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+.example {
+  overflow-y: scroll; /* Tambahkan kemampuan untuk melakukan scrolling */
+}
+
+/* Sembunyikan scrollbar dari Chrome, Safari dan Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Sembunyikan scrollbar untuk IE, Edge dan Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE dan Edge */
+  scrollbar-width: none;  /* Firefox */
+}

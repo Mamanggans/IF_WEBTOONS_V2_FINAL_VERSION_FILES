@@ -1,0 +1,135 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+    .lesson-wrapper {
+      display: flex;
+    }
+    .lesson {
+      width: 48%;
+      margin-right: 10px;
+      margin-bottom: 90px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+    
+    span.menu-icon {
+      display: block;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+  
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .lesson {
+      width: 100%;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    .main-bawah ul {
+      display: none;
+    }
+  }
+
+  /* main and aside  */
+  @media screen and (min-width: 2px) and (max-width: 1150px) {
+
+    body {
+      overflow-x: hidden;
+    }
+    .par-top {
+    
+      position: relative;
+      display: flex;
+      color: #00c7ed;
+      margin-left: 0%;
+    }
+       .menu-tri {
+         display: flex;
+         margin-left: 200px;
+         z-index: 5;
+       }
+      .txt h2 {
+        margin-top: -40px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 35px;
+      }
+      .txt p {
+        color: #fff;
+        font-weight: lighter;
+        margin-top: 30px;
+        font-size: 14px;
+        opacity: 1;
+      }
+      .site-btn {
+        margin-top: 5%;
+        font-size: 14px;
+        padding: 7px 18px;
+      }
+      .dotsbox{
+        margin-left: 0px;
+      }
+      .comic-cont {
+        display: none;
+      }
+      .box {
+        display: none;
+      }
+    
+      .fi-cont {
+        margin-bottom: auto;
+      }
+      .fi-cont h5 {
+        margin-left: -12px;
+        margin-top: 200px;
+        text-decoration: none;
+      }
+      .fi-cont p {
+    
+      }
+      main {
+        padding: 20px;   
+        overflow-x: hidden;
+       }
+       #content,
+       aside {
+         width: 100%;
+         padding: 0;
+       }
+       .nama-kel {
+        margin-top: 3%;
+    
+      }
+
+      }

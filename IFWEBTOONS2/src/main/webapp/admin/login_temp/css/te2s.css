@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+.log1 {
+  width: 95%;
+  padding: 0 15px;
+  margin: 0 auto;
+    background-color: #f7f7f7;
+  text-align: center;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+.tesr {
+ 
+	font-size: 40px;
+   font-family: 'Roboto', sans-serif;
+   color: black;
+   text-align: center;
+   margin-top: 20px;
+
+}
+a {
+	text-decoration: none;
+} 
